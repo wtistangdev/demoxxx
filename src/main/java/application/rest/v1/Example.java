@@ -20,7 +20,7 @@ public class Example {
     public Response example() {
         List<String> list = new ArrayList<>();
         //return a simple list of strings
-        list.add("Congratulations, your application is up and running 201712");
+        list.add("Congratulations, your application is up and running");
         return Response.ok(list.toString()).build();
     }
 
